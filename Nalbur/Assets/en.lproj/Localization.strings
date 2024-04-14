@@ -1,0 +1,28 @@
+/* 
+  Localizable (EN).strings
+  Nalbur
+
+  Created by MERT MUTLU on 20.02.2024.
+  
+*/
+
+"login.navbar.title.text" = "Sign In";
+
+//sign in screen
+"login.textFieldEmail.placeholder" = "E-mail";
+"login.textFieldPassword.placeholder" = "Password";
+"login.lblRemindMe.text" = "Remind Me";
+"login.btnLogin.title" = "Sign In";
+"login.lblRegisterLink.text" = "Don't have an account? Sign up";
+
+
+//sign up screen
+"register.navbar.title.text" = "Sign Up";
+"register.textFieldName.placeholder" = "Name";
+"register.textFieldSurname.placeholder" = "Surname";
+"register.textFieldEmail.placeholder" = "E-mail";
+"register.textFieldPassword.placeholder" = "Password";
+"register.textFieldPasswordAgain.placeholder" = "Password again";
+"register.textFieldNumber.placeholder" = "Id number";
+"register.lblPolicy.text" = "I approve the contract";
+"register.btnRegister.title" = "Sign Up";
