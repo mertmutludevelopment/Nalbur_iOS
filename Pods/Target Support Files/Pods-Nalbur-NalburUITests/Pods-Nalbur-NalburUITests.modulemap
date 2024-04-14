@@ -1,0 +1,6 @@
+framework module Pods_Nalbur_NalburUITests {
+  umbrella header "Pods-Nalbur-NalburUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

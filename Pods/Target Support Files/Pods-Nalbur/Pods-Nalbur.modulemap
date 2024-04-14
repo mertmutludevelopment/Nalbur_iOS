@@ -1,0 +1,6 @@
+framework module Pods_Nalbur {
+  umbrella header "Pods-Nalbur-umbrella.h"
+
+  export *
+  module * { export * }
+}

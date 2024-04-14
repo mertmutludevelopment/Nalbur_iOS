@@ -7,8 +7,23 @@
 
 import UIKit
 
+protocol CellProtocol{
+    func btnClckAddBasket(indexPath:IndexPath)
+    
+}
+
 class ProductCell: UITableViewCell {
 
+    @IBOutlet weak var cellBackground: UIView!
+    @IBOutlet weak var imageProduct: UIImageView!
+    @IBOutlet weak var stackViewProduct: UIStackView!
+    @IBOutlet weak var labelProductName: UILabel!
+    @IBOutlet weak var labelProductPrice: UILabel!
+    @IBOutlet weak var btnAddBasket: UIButton!
+    
+    var cellProtocol : CellProtocol?
+    var indexPath : IndexPath?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -16,8 +31,13 @@ class ProductCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        
     }
-
+    
+   
+    @IBAction func actionBtnAddBasket(_ sender: Any) {
+        cellProtocol?.btnClckAddBasket(indexPath: indexPath!)
+    }
+    
+    
 }

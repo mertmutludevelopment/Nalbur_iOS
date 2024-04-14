@@ -14,6 +14,7 @@ class UserManagedObject: NSManagedObject {
     @NSManaged var surname: String?
     @NSManaged var email: String?
     @NSManaged var password: String?
+    @NSManaged var language: String?
 
     
 }

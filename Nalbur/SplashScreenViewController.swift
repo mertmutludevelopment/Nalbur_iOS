@@ -6,3 +6,32 @@
 //
 
 import Foundation
+import UIKit
+
+class SplashScreenViewController : UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.initialize()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        
+    }
+    
+    
+    func initialize(){
+        
+        
+        
+    }
+    
+    
+    
+}

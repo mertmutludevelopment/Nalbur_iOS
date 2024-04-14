@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+
+struct SignInResponseModel {
+    var result: Bool
+    var errorCode: String?
+    var errorMessage: String?
+    var user: UserModel?
+}

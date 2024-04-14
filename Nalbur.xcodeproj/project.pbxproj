@@ -7,16 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0135C9461BF89A90D2E79A7B /* Pods_NalburTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85040F307687506BBB13D6DD /* Pods_NalburTests.framework */; };
+		1583B3369B2D7DBD3CABAB95 /* Pods_Nalbur_NalburUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A534200759226048F985B83 /* Pods_Nalbur_NalburUITests.framework */; };
+		212E09562B84BF000098BF2D /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E09552B84BF000098BF2D /* UIFontExtension.swift */; };
+		212E09592B84CEEA0098BF2D /* StoryboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E09582B84CEEA0098BF2D /* StoryboardManager.swift */; };
+		212E095B2B84D07A0098BF2D /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E095A2B84D07A0098BF2D /* PolicyViewController.swift */; };
+		212E095D2B84D30D0098BF2D /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E095C2B84D30D0098BF2D /* LanguageManager.swift */; };
+		212E09792B84DF2A0098BF2D /* LocalizationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E09782B84DF2A0098BF2D /* LocalizationExtension.swift */; };
+		212E097A2B84E6480098BF2D /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 212E097C2B84E6480098BF2D /* Localization.strings */; };
+		215F56272B72341700936E92 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215F56262B72341700936E92 /* RegisterViewController.swift */; };
+		215F9C362B876137004CAC6C /* Policy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215F9C352B876137004CAC6C /* Policy.storyboard */; };
+		215F9C382B876829004CAC6C /* AnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215F9C372B876829004CAC6C /* AnimationManager.swift */; };
+		216052E52B726D58008E6D3C /* UserManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216052E42B726D58008E6D3C /* UserManagedObject.swift */; };
+		216052E82B726E1D008E6D3C /* RepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216052E72B726E1D008E6D3C /* RepositoryService.swift */; };
+		216052EC2B7270FD008E6D3C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216052EB2B7270FD008E6D3C /* UserModel.swift */; };
+		216052F12B7271C5008E6D3C /* SignInResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216052F02B7271C5008E6D3C /* SignInResponseModel.swift */; };
+		216B7E2B2B7B9C1300113D3D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B7E2A2B7B9C1300113D3D /* UIColorExtension.swift */; };
+		2185BC442BBC5C1100BDFD68 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2185BC432BBC5C1100BDFD68 /* TestViewController.swift */; };
+		2193082B2BCC2BA100EF4A5D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2193082A2BCC2BA100EF4A5D /* SettingsViewController.swift */; };
+		2193082D2BCC2DB700EF4A5D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2193082C2BCC2DB700EF4A5D /* Settings.swift */; };
+		2193082F2BCC319F00EF4A5D /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2193082E2BCC319F00EF4A5D /* SettingsCell.swift */; };
+		21A0237C2BBD625B00304682 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0237B2BBD625B00304682 /* Products.swift */; };
+		21A0237E2BBD664000304682 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0237D2BBD664000304682 /* ProductViewController.swift */; };
+		21A023822BBD668E00304682 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A023812BBD668E00304682 /* ProductCell.swift */; };
+		21A023842BBD80F500304682 /* DetailProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A023832BBD80F500304682 /* DetailProductViewController.swift */; };
+		21A5E2772B8F2B8E0091F350 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5E2762B8F2B8E0091F350 /* DatePickerViewController.swift */; };
 		21B39C2F2B72232D009B4EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B39C2E2B72232D009B4EE5 /* AppDelegate.swift */; };
 		21B39C312B72232D009B4EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B39C302B72232D009B4EE5 /* SceneDelegate.swift */; };
-		21B39C332B72232D009B4EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B39C322B72232D009B4EE5 /* ViewController.swift */; };
-		21B39C362B72232D009B4EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B39C342B72232D009B4EE5 /* Main.storyboard */; };
 		21B39C392B72232D009B4EE5 /* Nalbur.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21B39C372B72232D009B4EE5 /* Nalbur.xcdatamodeld */; };
 		21B39C3B2B72232D009B4EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B39C3A2B72232D009B4EE5 /* Assets.xcassets */; };
-		21B39C3E2B72232D009B4EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B39C3C2B72232D009B4EE5 /* LaunchScreen.storyboard */; };
 		21B39C492B72232E009B4EE5 /* NalburTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B39C482B72232E009B4EE5 /* NalburTests.swift */; };
 		21B39C532B72232E009B4EE5 /* NalburUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B39C522B72232E009B4EE5 /* NalburUITests.swift */; };
 		21B39C552B72232E009B4EE5 /* NalburUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B39C542B72232E009B4EE5 /* NalburUITestsLaunchTests.swift */; };
+		21B39C662B722CA6009B4EE5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B39C652B722CA6009B4EE5 /* LoginViewController.swift */; };
+		21FBEF602B88A1C200D6454D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FBEF612B88A1C200D6454D /* Main.storyboard */; };
+		21FBEF622B88A69C00D6454D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FBEF632B88A69C00D6454D /* LaunchScreen.storyboard */; };
+		AF0DBCE0EE347085EA16CDBA /* Pods_Nalbur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7571892A13FCB74B94EF2519 /* Pods_Nalbur.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +63,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00392192A99DCB87BBD0F8BB /* Pods-Nalbur-NalburUITests.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur-NalburUITests.debug-dev.xcconfig"; path = "Target Support Files/Pods-Nalbur-NalburUITests/Pods-Nalbur-NalburUITests.debug-dev.xcconfig"; sourceTree = "<group>"; };
+		07BC2C855F349BFCA0A5927F /* Pods-Nalbur.release-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur.release-dev.xcconfig"; path = "Target Support Files/Pods-Nalbur/Pods-Nalbur.release-dev.xcconfig"; sourceTree = "<group>"; };
+		1559A37661BBCBD671D0A4E3 /* Pods-NalburTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NalburTests.debug.xcconfig"; path = "Target Support Files/Pods-NalburTests/Pods-NalburTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DF3F3C71D3F279AE3E7E793 /* Pods-Nalbur.release-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur.release-prod.xcconfig"; path = "Target Support Files/Pods-Nalbur/Pods-Nalbur.release-prod.xcconfig"; sourceTree = "<group>"; };
+		212E094E2B84AA080098BF2D /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		212E094F2B84AA380098BF2D /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		212E09502B84AA380098BF2D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		212E09512B84AA380098BF2D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		212E09522B84AA390098BF2D /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		212E09532B84AA390098BF2D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		212E09552B84BF000098BF2D /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		212E09582B84CEEA0098BF2D /* StoryboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardManager.swift; sourceTree = "<group>"; };
+		212E095A2B84D07A0098BF2D /* PolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
+		212E095C2B84D30D0098BF2D /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		212E09782B84DF2A0098BF2D /* LocalizationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationExtension.swift; sourceTree = "<group>"; };
+		212E097B2B84E6480098BF2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
+		212E097D2B84E64A0098BF2D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localization.strings; sourceTree = "<group>"; };
+		215F56262B72341700936E92 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		215F9C352B876137004CAC6C /* Policy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Policy.storyboard; sourceTree = "<group>"; };
+		215F9C372B876829004CAC6C /* AnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
+		216052E42B726D58008E6D3C /* UserManagedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagedObject.swift; sourceTree = "<group>"; };
+		216052E72B726E1D008E6D3C /* RepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryService.swift; sourceTree = "<group>"; };
+		216052EB2B7270FD008E6D3C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		216052F02B7271C5008E6D3C /* SignInResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInResponseModel.swift; sourceTree = "<group>"; };
+		216B7E2A2B7B9C1300113D3D /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		2185BC432BBC5C1100BDFD68 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		2193082A2BCC2BA100EF4A5D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2193082C2BCC2DB700EF4A5D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2193082E2BCC319F00EF4A5D /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		21A0237B2BBD625B00304682 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		21A0237D2BBD664000304682 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		21A023812BBD668E00304682 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		21A023832BBD80F500304682 /* DetailProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProductViewController.swift; sourceTree = "<group>"; };
+		21A5E2762B8F2B8E0091F350 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		21B39C2B2B72232D009B4EE5 /* Nalbur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nalbur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B39C2E2B72232D009B4EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21B39C302B72232D009B4EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21B39C322B72232D009B4EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		21B39C352B72232D009B4EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21B39C382B72232D009B4EE5 /* Nalbur.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nalbur.xcdatamodel; sourceTree = "<group>"; };
 		21B39C3A2B72232D009B4EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		21B39C3D2B72232D009B4EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21B39C3F2B72232D009B4EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21B39C442B72232D009B4EE5 /* NalburTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NalburTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B39C482B72232E009B4EE5 /* NalburTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NalburTests.swift; sourceTree = "<group>"; };
 		21B39C4E2B72232E009B4EE5 /* NalburUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NalburUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B39C522B72232E009B4EE5 /* NalburUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NalburUITests.swift; sourceTree = "<group>"; };
 		21B39C542B72232E009B4EE5 /* NalburUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NalburUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21B39C652B722CA6009B4EE5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		21FBEF5D2B888D3F00D6454D /* Nalbur-Prod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nalbur-Prod.entitlements"; sourceTree = "<group>"; };
+		21FBEF5E2B888D8A00D6454D /* Nalbur-Dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nalbur-Dev.entitlements"; sourceTree = "<group>"; };
+		21FBEF612B88A1C200D6454D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		21FBEF632B88A69C00D6454D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A534200759226048F985B83 /* Pods_Nalbur_NalburUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nalbur_NalburUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E718B41A08414C56C28AF6E /* Pods-NalburTests.release-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NalburTests.release-prod.xcconfig"; path = "Target Support Files/Pods-NalburTests/Pods-NalburTests.release-prod.xcconfig"; sourceTree = "<group>"; };
+		350E07C4DC7C0B92A064A89B /* Pods-Nalbur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur.debug.xcconfig"; path = "Target Support Files/Pods-Nalbur/Pods-Nalbur.debug.xcconfig"; sourceTree = "<group>"; };
+		5BC9FB5C9E983B833FCD5BBA /* Pods-Nalbur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur.release.xcconfig"; path = "Target Support Files/Pods-Nalbur/Pods-Nalbur.release.xcconfig"; sourceTree = "<group>"; };
+		5BD10515012B0C40287CB857 /* Pods-Nalbur-NalburUITests.release-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur-NalburUITests.release-prod.xcconfig"; path = "Target Support Files/Pods-Nalbur-NalburUITests/Pods-Nalbur-NalburUITests.release-prod.xcconfig"; sourceTree = "<group>"; };
+		7571892A13FCB74B94EF2519 /* Pods_Nalbur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nalbur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85040F307687506BBB13D6DD /* Pods_NalburTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NalburTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7E1771E37FC20D971663F6 /* Pods-Nalbur-NalburUITests.debug-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur-NalburUITests.debug-prod.xcconfig"; path = "Target Support Files/Pods-Nalbur-NalburUITests/Pods-Nalbur-NalburUITests.debug-prod.xcconfig"; sourceTree = "<group>"; };
+		A94778364F7E5E931893A8C4 /* Pods-NalburTests.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NalburTests.debug-dev.xcconfig"; path = "Target Support Files/Pods-NalburTests/Pods-NalburTests.debug-dev.xcconfig"; sourceTree = "<group>"; };
+		B12DCCF7D98ABD2B3B5A7D9A /* Pods-NalburTests.release-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NalburTests.release-dev.xcconfig"; path = "Target Support Files/Pods-NalburTests/Pods-NalburTests.release-dev.xcconfig"; sourceTree = "<group>"; };
+		BED1F866CEA32F3A31AEC765 /* Pods-NalburTests.debug-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NalburTests.debug-prod.xcconfig"; path = "Target Support Files/Pods-NalburTests/Pods-NalburTests.debug-prod.xcconfig"; sourceTree = "<group>"; };
+		D574D5D1C3B14E5BBD88E187 /* Pods-NalburTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NalburTests.release.xcconfig"; path = "Target Support Files/Pods-NalburTests/Pods-NalburTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9D69D24F8954C2EF195FB7B /* Pods-Nalbur.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur.debug-dev.xcconfig"; path = "Target Support Files/Pods-Nalbur/Pods-Nalbur.debug-dev.xcconfig"; sourceTree = "<group>"; };
+		E10D6DB2F55925C7795A7517 /* Pods-Nalbur-NalburUITests.release-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur-NalburUITests.release-dev.xcconfig"; path = "Target Support Files/Pods-Nalbur-NalburUITests/Pods-Nalbur-NalburUITests.release-dev.xcconfig"; sourceTree = "<group>"; };
+		E656394B049973AB92179D05 /* Pods-Nalbur-NalburUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur-NalburUITests.debug.xcconfig"; path = "Target Support Files/Pods-Nalbur-NalburUITests/Pods-Nalbur-NalburUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F75D12408541611335482DFF /* Pods-Nalbur-NalburUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur-NalburUITests.release.xcconfig"; path = "Target Support Files/Pods-Nalbur-NalburUITests/Pods-Nalbur-NalburUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA8E30A775C096D66E25A18A /* Pods-Nalbur.debug-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nalbur.debug-prod.xcconfig"; path = "Target Support Files/Pods-Nalbur/Pods-Nalbur.debug-prod.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0DBCE0EE347085EA16CDBA /* Pods_Nalbur.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0135C9461BF89A90D2E79A7B /* Pods_NalburTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +153,151 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1583B3369B2D7DBD3CABAB95 /* Pods_Nalbur_NalburUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212E094D2B84A9E20098BF2D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				212E094E2B84AA080098BF2D /* Roboto-Black.ttf */,
+				212E09532B84AA390098BF2D /* Roboto-Bold.ttf */,
+				212E094F2B84AA380098BF2D /* Roboto-Light.ttf */,
+				212E09512B84AA380098BF2D /* Roboto-Medium.ttf */,
+				212E09502B84AA380098BF2D /* Roboto-Regular.ttf */,
+				212E09522B84AA390098BF2D /* Roboto-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		212E09542B84AA9E0098BF2D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				21B39C3A2B72232D009B4EE5 /* Assets.xcassets */,
+				212E094D2B84A9E20098BF2D /* Fonts */,
+				212E097C2B84E6480098BF2D /* Localization.strings */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		212E09572B84CECC0098BF2D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				212E09582B84CEEA0098BF2D /* StoryboardManager.swift */,
+				212E095C2B84D30D0098BF2D /* LanguageManager.swift */,
+				215F9C372B876829004CAC6C /* AnimationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		215F10CD2B7F6ABE000C3A43 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				21FBEF632B88A69C00D6454D /* LaunchScreen.storyboard */,
+				21FBEF612B88A1C200D6454D /* Main.storyboard */,
+				215F9C352B876137004CAC6C /* Policy.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		215F10CE2B7F6ACF000C3A43 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2180F2242BB47DE8001D3D9E /* Main */,
+				215F10D12B7F6AF6000C3A43 /* Account */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		215F10CF2B7F6AD6000C3A43 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				21B39C652B722CA6009B4EE5 /* LoginViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		215F10D02B7F6AE4000C3A43 /* SingUp */ = {
+			isa = PBXGroup;
+			children = (
+				215F56262B72341700936E92 /* RegisterViewController.swift */,
+				212E095A2B84D07A0098BF2D /* PolicyViewController.swift */,
+				21A5E2762B8F2B8E0091F350 /* DatePickerViewController.swift */,
+			);
+			path = SingUp;
+			sourceTree = "<group>";
+		};
+		215F10D12B7F6AF6000C3A43 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				215F10D02B7F6AE4000C3A43 /* SingUp */,
+				215F10CF2B7F6AD6000C3A43 /* SignIn */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		216052E62B726DD0008E6D3C /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				216052E92B726E26008E6D3C /* Model */,
+				216052E72B726E1D008E6D3C /* RepositoryService.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		216052E92B726E26008E6D3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				216052E42B726D58008E6D3C /* UserManagedObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		216052EA2B7270F2008E6D3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				216052EB2B7270FD008E6D3C /* UserModel.swift */,
+				216052F02B7271C5008E6D3C /* SignInResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		216B7E292B7B9BF900113D3D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				216B7E2A2B7B9C1300113D3D /* UIColorExtension.swift */,
+				212E09552B84BF000098BF2D /* UIFontExtension.swift */,
+				212E09782B84DF2A0098BF2D /* LocalizationExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2180F2242BB47DE8001D3D9E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				219308292BCC2B8700EF4A5D /* Settings */,
+				2185BC432BBC5C1100BDFD68 /* TestViewController.swift */,
+				21A0237B2BBD625B00304682 /* Products.swift */,
+				21A023812BBD668E00304682 /* ProductCell.swift */,
+				21A0237D2BBD664000304682 /* ProductViewController.swift */,
+				21A023832BBD80F500304682 /* DetailProductViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		219308292BCC2B8700EF4A5D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2193082A2BCC2BA100EF4A5D /* SettingsViewController.swift */,
+				2193082C2BCC2DB700EF4A5D /* Settings.swift */,
+				2193082E2BCC319F00EF4A5D /* SettingsCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		21B39C222B72232D009B4EE5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +305,8 @@
 				21B39C472B72232E009B4EE5 /* NalburTests */,
 				21B39C512B72232E009B4EE5 /* NalburUITests */,
 				21B39C2C2B72232D009B4EE5 /* Products */,
+				556356B8E1703A912D50666F /* Pods */,
+				78A1C8DB5240BFDAA6BC7677 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +323,18 @@
 		21B39C2D2B72232D009B4EE5 /* Nalbur */ = {
 			isa = PBXGroup;
 			children = (
+				21FBEF5E2B888D8A00D6454D /* Nalbur-Dev.entitlements */,
+				21FBEF5D2B888D3F00D6454D /* Nalbur-Prod.entitlements */,
+				21FBEF5C2B888CB200D6454D /* Properties */,
+				212E09572B84CECC0098BF2D /* Managers */,
+				215F10CD2B7F6ABE000C3A43 /* Storyboards */,
+				215F10CE2B7F6ACF000C3A43 /* Modules */,
+				216B7E292B7B9BF900113D3D /* Extensions */,
+				216052EA2B7270F2008E6D3C /* Model */,
+				216052E62B726DD0008E6D3C /* Repository */,
+				212E09542B84AA9E0098BF2D /* Assets */,
 				21B39C2E2B72232D009B4EE5 /* AppDelegate.swift */,
 				21B39C302B72232D009B4EE5 /* SceneDelegate.swift */,
-				21B39C322B72232D009B4EE5 /* ViewController.swift */,
-				21B39C342B72232D009B4EE5 /* Main.storyboard */,
-				21B39C3A2B72232D009B4EE5 /* Assets.xcassets */,
-				21B39C3C2B72232D009B4EE5 /* LaunchScreen.storyboard */,
 				21B39C3F2B72232D009B4EE5 /* Info.plist */,
 				21B39C372B72232D009B4EE5 /* Nalbur.xcdatamodeld */,
 			);
@@ -130,6 +358,48 @@
 			path = NalburUITests;
 			sourceTree = "<group>";
 		};
+		21FBEF5C2B888CB200D6454D /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		556356B8E1703A912D50666F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				350E07C4DC7C0B92A064A89B /* Pods-Nalbur.debug.xcconfig */,
+				5BC9FB5C9E983B833FCD5BBA /* Pods-Nalbur.release.xcconfig */,
+				E656394B049973AB92179D05 /* Pods-Nalbur-NalburUITests.debug.xcconfig */,
+				F75D12408541611335482DFF /* Pods-Nalbur-NalburUITests.release.xcconfig */,
+				1559A37661BBCBD671D0A4E3 /* Pods-NalburTests.debug.xcconfig */,
+				D574D5D1C3B14E5BBD88E187 /* Pods-NalburTests.release.xcconfig */,
+				FA8E30A775C096D66E25A18A /* Pods-Nalbur.debug-prod.xcconfig */,
+				D9D69D24F8954C2EF195FB7B /* Pods-Nalbur.debug-dev.xcconfig */,
+				1DF3F3C71D3F279AE3E7E793 /* Pods-Nalbur.release-prod.xcconfig */,
+				07BC2C855F349BFCA0A5927F /* Pods-Nalbur.release-dev.xcconfig */,
+				8C7E1771E37FC20D971663F6 /* Pods-Nalbur-NalburUITests.debug-prod.xcconfig */,
+				00392192A99DCB87BBD0F8BB /* Pods-Nalbur-NalburUITests.debug-dev.xcconfig */,
+				5BD10515012B0C40287CB857 /* Pods-Nalbur-NalburUITests.release-prod.xcconfig */,
+				E10D6DB2F55925C7795A7517 /* Pods-Nalbur-NalburUITests.release-dev.xcconfig */,
+				BED1F866CEA32F3A31AEC765 /* Pods-NalburTests.debug-prod.xcconfig */,
+				A94778364F7E5E931893A8C4 /* Pods-NalburTests.debug-dev.xcconfig */,
+				2E718B41A08414C56C28AF6E /* Pods-NalburTests.release-prod.xcconfig */,
+				B12DCCF7D98ABD2B3B5A7D9A /* Pods-NalburTests.release-dev.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78A1C8DB5240BFDAA6BC7677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7571892A13FCB74B94EF2519 /* Pods_Nalbur.framework */,
+				2A534200759226048F985B83 /* Pods_Nalbur_NalburUITests.framework */,
+				85040F307687506BBB13D6DD /* Pods_NalburTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +407,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21B39C582B72232E009B4EE5 /* Build configuration list for PBXNativeTarget "Nalbur" */;
 			buildPhases = (
+				CEFC659A162475D55064F2E8 /* [CP] Check Pods Manifest.lock */,
 				21B39C272B72232D009B4EE5 /* Sources */,
 				21B39C282B72232D009B4EE5 /* Frameworks */,
 				21B39C292B72232D009B4EE5 /* Resources */,
@@ -154,6 +425,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21B39C5B2B72232E009B4EE5 /* Build configuration list for PBXNativeTarget "NalburTests" */;
 			buildPhases = (
+				E5519A067CEBE747B7528B33 /* [CP] Check Pods Manifest.lock */,
 				21B39C402B72232D009B4EE5 /* Sources */,
 				21B39C412B72232D009B4EE5 /* Frameworks */,
 				21B39C422B72232D009B4EE5 /* Resources */,
@@ -172,6 +444,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21B39C5E2B72232E009B4EE5 /* Build configuration list for PBXNativeTarget "NalburUITests" */;
 			buildPhases = (
+				DBCB132D722E0A47FBD9F7B6 /* [CP] Check Pods Manifest.lock */,
 				21B39C4A2B72232E009B4EE5 /* Sources */,
 				21B39C4B2B72232E009B4EE5 /* Frameworks */,
 				21B39C4C2B72232E009B4EE5 /* Resources */,
@@ -214,8 +487,8 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				tr,
 				en,
-				Base,
 			);
 			mainGroup = 21B39C222B72232D009B4EE5;
 			productRefGroup = 21B39C2C2B72232D009B4EE5 /* Products */;
@@ -234,9 +507,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B39C3E2B72232D009B4EE5 /* LaunchScreen.storyboard in Resources */,
+				215F9C362B876137004CAC6C /* Policy.storyboard in Resources */,
+				21FBEF622B88A69C00D6454D /* LaunchScreen.storyboard in Resources */,
 				21B39C3B2B72232D009B4EE5 /* Assets.xcassets in Resources */,
-				21B39C362B72232D009B4EE5 /* Main.storyboard in Resources */,
+				212E097A2B84E6480098BF2D /* Localization.strings in Resources */,
+				21FBEF602B88A1C200D6454D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +531,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CEFC659A162475D55064F2E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nalbur-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCB132D722E0A47FBD9F7B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nalbur-NalburUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5519A067CEBE747B7528B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NalburTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21B39C272B72232D009B4EE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B39C332B72232D009B4EE5 /* ViewController.swift in Sources */,
+				215F9C382B876829004CAC6C /* AnimationManager.swift in Sources */,
+				21A023842BBD80F500304682 /* DetailProductViewController.swift in Sources */,
+				216052F12B7271C5008E6D3C /* SignInResponseModel.swift in Sources */,
+				21A5E2772B8F2B8E0091F350 /* DatePickerViewController.swift in Sources */,
+				212E09592B84CEEA0098BF2D /* StoryboardManager.swift in Sources */,
+				212E09792B84DF2A0098BF2D /* LocalizationExtension.swift in Sources */,
 				21B39C2F2B72232D009B4EE5 /* AppDelegate.swift in Sources */,
 				21B39C312B72232D009B4EE5 /* SceneDelegate.swift in Sources */,
+				215F56272B72341700936E92 /* RegisterViewController.swift in Sources */,
+				212E095B2B84D07A0098BF2D /* PolicyViewController.swift in Sources */,
+				216052E52B726D58008E6D3C /* UserManagedObject.swift in Sources */,
+				2185BC442BBC5C1100BDFD68 /* TestViewController.swift in Sources */,
+				216052E82B726E1D008E6D3C /* RepositoryService.swift in Sources */,
+				21A023822BBD668E00304682 /* ProductCell.swift in Sources */,
+				2193082F2BCC319F00EF4A5D /* SettingsCell.swift in Sources */,
+				212E095D2B84D30D0098BF2D /* LanguageManager.swift in Sources */,
+				2193082B2BCC2BA100EF4A5D /* SettingsViewController.swift in Sources */,
+				21B39C662B722CA6009B4EE5 /* LoginViewController.swift in Sources */,
+				216052EC2B7270FD008E6D3C /* UserModel.swift in Sources */,
+				2193082D2BCC2DB700EF4A5D /* Settings.swift in Sources */,
 				21B39C392B72232D009B4EE5 /* Nalbur.xcdatamodeld in Sources */,
+				212E09562B84BF000098BF2D /* UIFontExtension.swift in Sources */,
+				21A0237C2BBD625B00304682 /* Products.swift in Sources */,
+				216B7E2B2B7B9C1300113D3D /* UIColorExtension.swift in Sources */,
+				21A0237E2BBD664000304682 /* ProductViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,30 +666,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		21B39C342B72232D009B4EE5 /* Main.storyboard */ = {
+		212E097C2B84E6480098BF2D /* Localization.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				21B39C352B72232D009B4EE5 /* Base */,
+				212E097B2B84E6480098BF2D /* en */,
+				212E097D2B84E64A0098BF2D /* tr */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		21B39C3C2B72232D009B4EE5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21B39C3D2B72232D009B4EE5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localization.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		21B39C562B72232E009B4EE5 /* Debug */ = {
+		21B39C562B72232E009B4EE5 /* Debug-Prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -357,7 +716,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -372,7 +731,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -381,13 +740,14 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = "Debug-Prod";
 		};
-		21B39C572B72232E009B4EE5 /* Release */ = {
+		21B39C572B72232E009B4EE5 /* Release-Prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -420,7 +780,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -429,7 +789,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,13 +797,15 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Release-Prod";
 		};
-		21B39C592B72232E009B4EE5 /* Debug */ = {
+		21B39C592B72232E009B4EE5 /* Debug-Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8E30A775C096D66E25A18A /* Pods-Nalbur.debug-prod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nalbur/NalburDebug-Prod.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -451,6 +813,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,13 +828,15 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = "Debug-Prod";
 		};
-		21B39C5A2B72232E009B4EE5 /* Release */ = {
+		21B39C5A2B72232E009B4EE5 /* Release-Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF3F3C71D3F279AE3E7E793 /* Pods-Nalbur.release-prod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nalbur/NalburRelease-Prod.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -478,6 +844,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,10 +859,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = "Release-Prod";
 		};
-		21B39C5C2B72232E009B4EE5 /* Debug */ = {
+		21B39C5C2B72232E009B4EE5 /* Debug-Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED1F866CEA32F3A31AEC765 /* Pods-NalburTests.debug-prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,10 +879,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nalbur.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nalbur";
 			};
-			name = Debug;
+			name = "Debug-Prod";
 		};
-		21B39C5D2B72232E009B4EE5 /* Release */ = {
+		21B39C5D2B72232E009B4EE5 /* Release-Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E718B41A08414C56C28AF6E /* Pods-NalburTests.release-prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,10 +899,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nalbur.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nalbur";
 			};
-			name = Release;
+			name = "Release-Prod";
 		};
-		21B39C5F2B72232E009B4EE5 /* Debug */ = {
+		21B39C5F2B72232E009B4EE5 /* Debug-Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7E1771E37FC20D971663F6 /* Pods-Nalbur-NalburUITests.debug-prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,10 +917,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Nalbur;
 			};
-			name = Debug;
+			name = "Debug-Prod";
 		};
-		21B39C602B72232E009B4EE5 /* Release */ = {
+		21B39C602B72232E009B4EE5 /* Release-Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD10515012B0C40287CB857 /* Pods-Nalbur-NalburUITests.release-prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,7 +935,266 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Nalbur;
 			};
-			name = Release;
+			name = "Release-Prod";
+		};
+		21FBEF542B8888DF00D6454D /* Debug-Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-Dev";
+		};
+		21FBEF552B8888DF00D6454D /* Debug-Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D69D24F8954C2EF195FB7B /* Pods-Nalbur.debug-dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nalbur/NalburDebug-Dev.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nalbur/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertmutlu.Nalbur.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-Dev";
+		};
+		21FBEF562B8888DF00D6454D /* Debug-Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94778364F7E5E931893A8C4 /* Pods-NalburTests.debug-dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertmutlu.NalburTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nalbur.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nalbur";
+			};
+			name = "Debug-Dev";
+		};
+		21FBEF572B8888DF00D6454D /* Debug-Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00392192A99DCB87BBD0F8BB /* Pods-Nalbur-NalburUITests.debug-dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertmutlu.NalburUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nalbur;
+			};
+			name = "Debug-Dev";
+		};
+		21FBEF582B8888EE00D6454D /* Release-Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Dev";
+		};
+		21FBEF592B8888EE00D6454D /* Release-Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BC2C855F349BFCA0A5927F /* Pods-Nalbur.release-dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nalbur/NalburRelease-Dev.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nalbur/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertmutlu.Nalbur.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-Dev";
+		};
+		21FBEF5A2B8888EE00D6454D /* Release-Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12DCCF7D98ABD2B3B5A7D9A /* Pods-NalburTests.release-dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertmutlu.NalburTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nalbur.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nalbur";
+			};
+			name = "Release-Dev";
+		};
+		21FBEF5B2B8888EE00D6454D /* Release-Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10D6DB2F55925C7795A7517 /* Pods-Nalbur-NalburUITests.release-dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertmutlu.NalburUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nalbur;
+			};
+			name = "Release-Dev";
 		};
 /* End XCBuildConfiguration section */
 
@@ -571,38 +1202,46 @@
 		21B39C262B72232D009B4EE5 /* Build configuration list for PBXProject "Nalbur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21B39C562B72232E009B4EE5 /* Debug */,
-				21B39C572B72232E009B4EE5 /* Release */,
+				21B39C562B72232E009B4EE5 /* Debug-Prod */,
+				21FBEF542B8888DF00D6454D /* Debug-Dev */,
+				21B39C572B72232E009B4EE5 /* Release-Prod */,
+				21FBEF582B8888EE00D6454D /* Release-Dev */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug-Prod";
 		};
 		21B39C582B72232E009B4EE5 /* Build configuration list for PBXNativeTarget "Nalbur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21B39C592B72232E009B4EE5 /* Debug */,
-				21B39C5A2B72232E009B4EE5 /* Release */,
+				21B39C592B72232E009B4EE5 /* Debug-Prod */,
+				21FBEF552B8888DF00D6454D /* Debug-Dev */,
+				21B39C5A2B72232E009B4EE5 /* Release-Prod */,
+				21FBEF592B8888EE00D6454D /* Release-Dev */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug-Prod";
 		};
 		21B39C5B2B72232E009B4EE5 /* Build configuration list for PBXNativeTarget "NalburTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21B39C5C2B72232E009B4EE5 /* Debug */,
-				21B39C5D2B72232E009B4EE5 /* Release */,
+				21B39C5C2B72232E009B4EE5 /* Debug-Prod */,
+				21FBEF562B8888DF00D6454D /* Debug-Dev */,
+				21B39C5D2B72232E009B4EE5 /* Release-Prod */,
+				21FBEF5A2B8888EE00D6454D /* Release-Dev */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug-Prod";
 		};
 		21B39C5E2B72232E009B4EE5 /* Build configuration list for PBXNativeTarget "NalburUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21B39C5F2B72232E009B4EE5 /* Debug */,
-				21B39C602B72232E009B4EE5 /* Release */,
+				21B39C5F2B72232E009B4EE5 /* Debug-Prod */,
+				21FBEF572B8888DF00D6454D /* Debug-Dev */,
+				21B39C602B72232E009B4EE5 /* Release-Prod */,
+				21FBEF5B2B8888EE00D6454D /* Release-Dev */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug-Prod";
 		};
 /* End XCConfigurationList section */
 

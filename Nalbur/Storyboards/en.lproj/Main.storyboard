@@ -158,7 +158,7 @@
         <!--Register View Controller-->
         <scene sceneID="iNS-eM-JQI">
             <objects>
-                <viewController storyboardIdentifier="RegisterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3ZD-5s-EYE" customClass="RegisterViewController" customModule="Nalbur" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegisterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3ZD-5s-EYE" customClass="RegisterViewController" customModule="Nalbur" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hon-N2-h4K">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -167,7 +167,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="749"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6RZ-ZO-TtS">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="650"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="749"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ex1-TQ-baL">
                                                 <rect key="frame" x="16" y="22" width="361" height="54"/>
@@ -301,6 +301,7 @@
                                         <constraints>
                                             <constraint firstItem="8AW-CG-VJt" firstAttribute="top" secondItem="E2H-Tq-BkH" secondAttribute="bottom" constant="22" id="0pF-kQ-K4I"/>
                                             <constraint firstItem="iqm-gu-Pbb" firstAttribute="top" secondItem="8AW-CG-VJt" secondAttribute="bottom" constant="22" id="2Tj-5d-7lJ"/>
+                                            <constraint firstAttribute="height" constant="749" id="3CV-Ol-WLl"/>
                                             <constraint firstItem="8AW-CG-VJt" firstAttribute="leading" secondItem="E2H-Tq-BkH" secondAttribute="leading" id="4UF-wt-ixw"/>
                                             <constraint firstItem="SIr-ih-O0e" firstAttribute="trailing" secondItem="bDF-wR-a7M" secondAttribute="trailing" id="4wy-mk-37u"/>
                                             <constraint firstItem="iqm-gu-Pbb" firstAttribute="trailing" secondItem="8AW-CG-VJt" secondAttribute="trailing" id="53z-tw-q7l"/>
@@ -308,7 +309,6 @@
                                             <constraint firstItem="2Rx-WK-rcW" firstAttribute="centerY" secondItem="E2H-Tq-BkH" secondAttribute="centerY" id="7mt-9b-t8Y"/>
                                             <constraint firstAttribute="trailing" secondItem="2Rx-WK-rcW" secondAttribute="trailing" constant="32" id="9pt-VN-ARp"/>
                                             <constraint firstItem="E2H-Tq-BkH" firstAttribute="trailing" secondItem="x7o-a8-QgL" secondAttribute="trailing" id="AMI-Fe-MZq"/>
-                                            <constraint firstAttribute="height" constant="650" id="DoJ-tl-124"/>
                                             <constraint firstAttribute="trailing" secondItem="hFk-5u-s8z" secondAttribute="trailing" constant="16" id="ER4-vr-9kV"/>
                                             <constraint firstItem="E2H-Tq-BkH" firstAttribute="leading" secondItem="x7o-a8-QgL" secondAttribute="leading" id="EaB-qs-jMR"/>
                                             <constraint firstItem="hFk-5u-s8z" firstAttribute="top" secondItem="AEk-vW-y41" secondAttribute="bottom" constant="29" id="FoB-ha-vU3"/>
@@ -337,9 +337,10 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="6RZ-ZO-TtS" firstAttribute="top" secondItem="eWR-5X-lhy" secondAttribute="top" id="1nk-5q-mGs"/>
+                                    <constraint firstItem="6RZ-ZO-TtS" firstAttribute="centerX" secondItem="Hfd-nN-1hG" secondAttribute="centerX" id="ARt-SO-KOk"/>
                                     <constraint firstAttribute="trailing" secondItem="6RZ-ZO-TtS" secondAttribute="trailing" id="Cxo-0u-hMu"/>
                                     <constraint firstItem="6RZ-ZO-TtS" firstAttribute="leading" secondItem="eWR-5X-lhy" secondAttribute="leading" id="W9o-1M-QWB"/>
-                                    <constraint firstAttribute="bottom" secondItem="6RZ-ZO-TtS" secondAttribute="bottom" constant="99" id="prR-yL-EB2"/>
+                                    <constraint firstAttribute="bottom" secondItem="6RZ-ZO-TtS" secondAttribute="bottom" id="q6q-EB-54e"/>
                                     <constraint firstItem="6RZ-ZO-TtS" firstAttribute="trailing" secondItem="eWR-5X-lhy" secondAttribute="trailing" id="z2Y-cn-kRd"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="H4B-Bk-KCK"/>
@@ -377,7 +378,6 @@
                         <outlet property="textFieldPasswordAgain" destination="E2H-Tq-BkH" id="UyA-f8-Gip"/>
                         <outlet property="textFieldSurname" destination="bDF-wR-a7M" id="xnK-VC-ycc"/>
                         <outlet property="uiView" destination="6RZ-ZO-TtS" id="wQG-ir-oii"/>
-                        <outlet property="uiViewHeight" destination="DoJ-tl-124" id="Gqs-vf-Q1m"/>
                         <outlet property="view" destination="hon-N2-h4K" id="6wh-Lj-57D"/>
                     </connections>
                 </viewController>
@@ -401,28 +401,6 @@
             </objects>
             <point key="canvasLocation" x="-886" y="874"/>
         </scene>
-        <!--Policy View Controller-->
-        <scene sceneID="q8P-o6-dhy">
-            <objects>
-                <viewController id="ScN-Ew-r8w" customClass="PolicyViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5Uy-US-sva">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ib-Rx-jfg">
-                                <rect key="frame" x="79" y="249" width="235" height="354"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="GKb-wm-zZe"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nFJ-jw-ptM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="226.71755725190837" y="873.94366197183103"/>
-        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
@@ -430,12 +408,6 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

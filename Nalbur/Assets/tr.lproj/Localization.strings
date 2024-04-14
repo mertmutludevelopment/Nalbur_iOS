@@ -6,33 +6,28 @@
   
 */
 
-"login.navbar.title.text" = "Giriş Yap";
 
 //sign in screen
+"login.navbar.title.text" = "Giriş Yap";
 "login.textFieldEmail.placeholder" = "E-posta";
 "login.textFieldPassword.placeholder" = "Şifre";
 "login.lblRemindMe.text" = "Beni Hatırla";
 "login.btnLogin.title" = "Giriş Yap";
 "login.lblRegisterLink.text" = "Hesabınız yok mu? Kaydolun";
 
-
 //sign up screen
 "register.navbar.title.text" = "Kaydol";
-
 "register.textFieldName.placeholder" = "İsim";
-
 "register.textFieldSurname.placeholder" = "Soyisim";
-
 "register.textFieldEmail.placeholder" = "E-posta";
-
 "register.textFieldPassword.placeholder" = "Şifre";
-
 "register.textFieldPasswordAgain.placeholder" = "Tekrar şifre";
-
 "register.textFieldNumber.placeholder" = "TC kimlik numarası";
-
 "register.lblPolicy.text" = "Üyelik sözleşmesini kabul ediyorum";
-
 "register.btnRegister.title" = "Kaydol";
 
+//policy popup screen
+"policy.btnPolicyOk.title" = "Tamam";
 
+//main screen
+"main.navbar.title.text" = "Nalbur";

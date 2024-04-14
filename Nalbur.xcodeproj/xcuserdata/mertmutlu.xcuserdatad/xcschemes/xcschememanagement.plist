@@ -4,10 +4,37 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Nalbur.xcscheme_^#shared#^_</key>
+		<key>Nalbur-Dev.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+		<key>Nalbur-Prod.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>21B39C2A2B72232D009B4EE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21B39C432B72232D009B4EE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21B39C4D2B72232E009B4EE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>Timestamp</key>
+					<string>729461195</string>
+					<key>XcodeLocation</key>
+					<string>{"MemberID":"3ZD-5s-EYE"}</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Nalbur/Nalbur/Base.lproj/Main.storyboard</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>IBDocumentMemberLocation</string>
+			</dict>
+			<key>title</key>
+			<string>Error: Failed to render and update auto layout status for RegisterViewController (3ZD-5s-EYE): dlopen(SkyFloatingLabelTextField.framework, 0x0001): tried: '/opt/xcode/15.1/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Overlays/SkyFloatingLabelTextField.framework/SkyFloatingLabelTextField' (no such file), '/opt/xcode/15.1/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/SkyFloatingLabelTextField.framework/SkyFloatingLabelTextField' (no such file), '/Library/Developer/CoreSimulator/Volumes/iOS_21C62/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 17.2.simruntime/Contents/Resources/RuntimeRootSkyFloatingLabelTextField.framework' (no such file), 'SkyFloatingLabelTextField.framework' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Library/Developer/CoreSimulator/Volumes/iOS_21C62/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 17.2.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/SkyFloatingLabelTextField.framework/SkyFloatingLabelTextField' (no such file)</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Nalbur/Nalbur/Base.lproj/Main.storyboard</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>DVTDocumentLocation</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>

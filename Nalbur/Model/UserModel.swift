@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+
+struct UserModel {
+    var name: String?
+    var surname: String?
+    var email: String?
+    var password: String?
+    var language : String?
+}
+
