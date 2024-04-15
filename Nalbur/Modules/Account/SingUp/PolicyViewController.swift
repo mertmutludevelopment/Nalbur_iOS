@@ -69,9 +69,7 @@ class PolicyViewController : UIViewController {
         lblPolicyDescirption.text = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going "
         lblPolicyDescirption.adjustsFontSizeToFitWidth = true
         lblPolicyDescirption.minimumScaleFactor = 0.9
-
     }
-    
 }
 
 extension PolicyViewController{
@@ -80,7 +78,7 @@ extension PolicyViewController{
         self.delegate.approvedPolicy()
         self.dismiss(animated: true)
     }
-    
+
     @IBAction func actionClosedPolicy(_ sender: UIButton){
         AnimationManager.shared().removeAnimation(.popup, view: self.view)
     }

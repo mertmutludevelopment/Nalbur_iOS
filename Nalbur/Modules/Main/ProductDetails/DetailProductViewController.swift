@@ -2,7 +2,6 @@
 //  DeatilProductViewController.swift
 //  Nalbur
 //
-//  Created by MERT MUTLU on 3.04.2024.
 //
 
 import Foundation
@@ -10,11 +9,11 @@ import UIKit
 
 class DetailProductViewController : UIViewController {
     
-    @IBOutlet weak var btnBack: UIBarButtonItem!
-    @IBOutlet weak var labelProductName: UILabel!
-    @IBOutlet weak var imageProduct: UIImageView!
-    @IBOutlet weak var labelProductPrice: UILabel!
-    @IBOutlet weak var btnAddBasket: UIButton!
+    @IBOutlet private weak var btnBack: UIBarButtonItem!
+    @IBOutlet private weak var labelProductName: UILabel!
+    @IBOutlet private weak var imageProduct: UIImageView!
+    @IBOutlet private weak var labelProductPrice: UILabel!
+    @IBOutlet private weak var btnAddBasket: UIButton!
     
     var product:Products?
     
@@ -29,6 +28,16 @@ class DetailProductViewController : UIViewController {
         navigationController?.setNavigationBarHidden(false, animated: true)
 
     }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+    }
+    
     private func initialize(){
         
         btnBack.image = UIImage(named: "backbutton")
@@ -51,11 +60,11 @@ class DetailProductViewController : UIViewController {
         }
         
     }
-    @IBAction func actionBtnBack(_ sender: Any) {
+    @IBAction private func actionBtnBack(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
     
-    @IBAction func actionBtnAddBasket(_ sender: Any) {
+    @IBAction private func actionBtnAddBasket(_ sender: Any) {
         if let p = product {
             print("\(p.productName!) Detaydan eklendi")
 

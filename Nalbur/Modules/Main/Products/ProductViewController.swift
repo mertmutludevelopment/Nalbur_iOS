@@ -2,7 +2,6 @@
 //  MainViewController.swift
 //  Nalbur
 //
-//  Created by MERT MUTLU on 3.04.2024.
 //
 
 import Foundation
@@ -11,20 +10,32 @@ import UIKit
 class ProductViewController : UIViewController , UITabBarControllerDelegate{
     
     
-    @IBOutlet weak var productsTableView: UITableView!
-    @IBOutlet weak var topView: UIView!
+    @IBOutlet private weak var productsTableView: UITableView!
+    @IBOutlet private weak var topView: UIView!
     
-    var producList = [Products]()
+    private var producList = [Products]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initialize()
     }
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: false)
     }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+    }
+    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "PVCtoDPVC" {
             if let destinationVC = segue.destination as? DetailProductViewController,
@@ -60,10 +71,7 @@ class ProductViewController : UIViewController , UITabBarControllerDelegate{
         producList.append(p6)
 
         productsTableView.separatorColor = UIColor(white: 0.95, alpha: 1)
-        
     }
-   
-    
 }
 
 
@@ -104,8 +112,6 @@ extension ProductViewController : UITableViewDelegate , UITableViewDataSource ,C
         cell.btnAddBasket.layer.borderWidth = 0.5
         cell.btnAddBasket.layer.cornerRadius = 10.0
 
-        
-
         return cell
     }
     
@@ -113,17 +119,11 @@ extension ProductViewController : UITableViewDelegate , UITableViewDataSource ,C
  
         let product = producList[indexPath.row]
         performSegue(withIdentifier: "PVCtoDPVC", sender: product)
-
-//        if let detailVC = storyboard?.instantiateViewController(withIdentifier: "DetailProductViewController") as? DetailProductViewController {
-//            detailVC.product = product
-//               navigationController?.pushViewController(detailVC, animated: true)
-//           }
+        
     }
     
     func btnClckAddBasket(indexPath: IndexPath) {
         let product = producList[indexPath.row]
-
         print("\(product.productName!) added to basket")
     }
-    
 }

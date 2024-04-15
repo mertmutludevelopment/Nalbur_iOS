@@ -2,7 +2,6 @@
 //  DatePickerViewController.swift
 //  Nalbur
 //
-//  Created by MERT MUTLU on 28.02.2024.
 //
 
 import Foundation
@@ -16,6 +15,18 @@ class DatePickerViewController  : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initialize()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
     }
     
     

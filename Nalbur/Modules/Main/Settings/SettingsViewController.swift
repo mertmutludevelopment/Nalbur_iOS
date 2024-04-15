@@ -2,7 +2,6 @@
 //  SettingsViewController.swift
 //  Nalbur
 //
-//  Created by MERT MUTLU on 14.04.2024.
 //
 
 import Foundation
@@ -11,9 +10,9 @@ import UIKit
 
 class SettingsViewController : UIViewController {
     
-    @IBOutlet weak var settingsTableView: UITableView!
-    @IBOutlet weak var topView: UIView!
-    let settingsList = [
+    @IBOutlet private weak var settingsTableView: UITableView!
+    @IBOutlet private weak var topView: UIView!
+    private let settingsList = [
         ["Ekran Süresi", "Ekran Paylaşımı"],
         ["Genel","Erişebilirlik","Gizlilik ve Güvenlik"],
         ["Gelişmiş","Dil"]
@@ -36,7 +35,10 @@ class SettingsViewController : UIViewController {
         super.viewWillDisappear(animated)
         
     }
-    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+   
+    }
     
     private func initialize(){
         self.view.backgroundColor = UIColor.white
@@ -47,9 +49,7 @@ class SettingsViewController : UIViewController {
         settingsTableView.delegate = self
         settingsTableView.dataSource = self
         settingsTableView.separatorColor = UIColor(white: 0.95, alpha: 1)
-        
     }
-    
 }
 
 extension SettingsViewController : UITableViewDelegate , UITableViewDataSource {
@@ -62,6 +62,7 @@ extension SettingsViewController : UITableViewDelegate , UITableViewDataSource {
         headerView.backgroundColor = UIColor.clear
         return headerView
     }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return settingsList.count
     }

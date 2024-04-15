@@ -2,7 +2,6 @@
 //  RegisterViewController.swift
 //  Nalbur
 //
-//  Created by MERT MUTLU on 6.02.2024.
 //
 
 import Foundation
@@ -13,23 +12,24 @@ import CoreLocation
 
 class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationManagerDelegate{
     
-    var locationManager : CLLocationManager?
-    @IBOutlet weak var btnBack: UIBarButtonItem!
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var uiView: UIView!
-    @IBOutlet weak var uiViewHeight: NSLayoutConstraint!
-    @IBOutlet weak var textFieldName: UITextField!
-    @IBOutlet weak var textFieldSurname: UITextField!
-    @IBOutlet weak var textFieldEmail: UITextField!
-    @IBOutlet weak var textFieldPassword: UITextField!
-    @IBOutlet weak var textFieldPasswordAgain: UITextField!
-    @IBOutlet weak var textFieldIdNumber: UITextField!
-    @IBOutlet weak var btnPasswordRightView: UIButton!
-    @IBOutlet weak var btnPasswordAgainRightView: UIButton!
-    @IBOutlet weak var textFieldTest: UITextField!
-    @IBOutlet weak var btnPolicy: UIButton!
-    @IBOutlet weak var lblPolicy: UILabel!
-    @IBOutlet weak var btnRegister: UIButton!
+    private var locationManager : CLLocationManager?
+    
+    @IBOutlet private weak var btnBack: UIBarButtonItem!
+    @IBOutlet private weak var scrollView: UIScrollView!
+    @IBOutlet private weak var uiView: UIView!
+    @IBOutlet private weak var uiViewHeight: NSLayoutConstraint!
+    @IBOutlet private weak var textFieldName: UITextField!
+    @IBOutlet private weak var textFieldSurname: UITextField!
+    @IBOutlet private weak var textFieldEmail: UITextField!
+    @IBOutlet private weak var textFieldPassword: UITextField!
+    @IBOutlet private weak var textFieldPasswordAgain: UITextField!
+    @IBOutlet private weak var textFieldIdNumber: UITextField!
+    @IBOutlet private weak var btnPasswordRightView: UIButton!
+    @IBOutlet private weak var btnPasswordAgainRightView: UIButton!
+    @IBOutlet private weak var textFieldTest: UITextField!
+    @IBOutlet private weak var btnPolicy: UIButton!
+    @IBOutlet private weak var lblPolicy: UILabel!
+    @IBOutlet private weak var btnRegister: UIButton!
     
     private var isSecure = true
     private var passwordImageRightView = UIImageView()
@@ -46,7 +46,7 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
         locationManager?.requestAlwaysAuthorization()
     }
     
-    internal func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         if status == .authorizedAlways {
             if CLLocationManager.isMonitoringAvailable(for: CLBeaconRegion.self){
                 if CLLocationManager.isRangingAvailable(){
@@ -81,8 +81,6 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
     
     private func initialize(){
         
-        
-        
         self.title = "register.navbar.title.text".localized
         
         //view Background
@@ -94,9 +92,7 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
         self.view.addSubview(backgroundImage)
         self.view.sendSubviewToBack(backgroundImage)
         
-        //btnBack.setBackgroundImage(UIImage(named: "backbutton"), for: .normal, barMetrics: UIBarMetrics)
         btnBack.image = UIImage(named: "backbutton")
-        //btnBack.tintColor = UIColor.white
         
         if let email = receivedEmail {
             textFieldEmail.text = email
@@ -117,9 +113,6 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
         textFieldName.keyboardType = .default
         textFieldName.delegate = self
         
-        
-        
-        
         let userSurnameImageViewLeft = UIImageView(frame: CGRect.init(x: 15, y: 10, width: 20, height: 20))
         userSurnameImageViewLeft.backgroundColor = UIColor.clear
         userSurnameImageViewLeft.image = UIImage(named: "user")
@@ -133,8 +126,6 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
         textFieldSurname.placeholder = "register.textFieldSurname.placeholder".localized
         textFieldSurname.keyboardType = .default
         textFieldSurname.delegate = self
-        
-        
         
         let emailImageViewLeft = UIImageView(frame: CGRect.init(x: 15, y: 10, width: 20, height: 20))
         emailImageViewLeft.backgroundColor = UIColor.clear
@@ -150,7 +141,6 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
         textFieldEmail.placeholder = "register.textFieldEmail.placeholder".localized
         textFieldEmail.keyboardType = .emailAddress
         textFieldEmail.delegate = self
-        
         
         //textField password
         let passwordImageViewLeft = UIImageView(frame: CGRect.init(x: 15, y: 10, width: 20, height: 20))
@@ -175,9 +165,6 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
         textFieldPassword.rightView = btnPasswordRightView
         textFieldPassword.rightViewMode = .always
         
-        
-        
-        
         //textField password again
         let passwordAgainImageViewLeft = UIImageView(frame: CGRect.init(x: 15, y: 10, width: 20, height: 20))
         passwordAgainImageViewLeft.backgroundColor = UIColor.clear
@@ -199,8 +186,6 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
         btnPasswordAgainRightView.setImage(UIImage(named: "hidden"), for: .normal)
         textFieldPasswordAgain.rightView = btnPasswordAgainRightView
         textFieldPasswordAgain.rightViewMode = .always
-        
-        
         
         //textField User ID Number
         let userIdImageViewLeft = UIImageView(frame: CGRect.init(x: 15, y: 10, width: 20, height: 20))
@@ -239,10 +224,6 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
         datePicker.frame.size = CGSize(width: 0, height: 300)
         datePicker.preferredDatePickerStyle = .wheels
         
-
-        
-        
-        
         let toolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 44))
         toolbar.barStyle = .default
         toolbar.barTintColor = UIColor.systemGray
@@ -254,11 +235,7 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
         textFieldTest.inputView = datePicker
         textFieldTest.text = formatDate(date: Date())
         textFieldTest.inputAccessoryView = toolbar
-
-
     }
-    
-   
     
     @objc func dateChange(datePicker: UIDatePicker)
     {
@@ -274,9 +251,6 @@ class RegisterViewController: UIViewController,UITextFieldDelegate,CLLocationMan
     @objc func doneButtonTapped() {
         textFieldTest.resignFirstResponder() // Klavyeyi kapat
     }
-   
-    
-    
 }
 
 extension RegisterViewController{
@@ -284,13 +258,12 @@ extension RegisterViewController{
     @objc func lblPolicyClicked(_ gesture:UITapGestureRecognizer){
         
         let controller = StoryboardManager.shared().getController(.policy, controller : "PolicyViewController" , type : PolicyViewController.self)
-        
         controller.delegate = self
         self.addChild(controller)
         self.view.addSubview(controller.view)
         controller.didMove(toParent: self)
-        
     }
+    
     @IBAction func actionBtnBack(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
@@ -302,23 +275,19 @@ extension RegisterViewController{
     }
     
     @IBAction func actionBtnPasswordAgainRightView(_ sender: UIButton) {
-        
         btnPasswordAgainRightView.setImage(UIImage(named : isSecure ? "eye" : "hidden" ), for: .normal)
         isSecure = !isSecure
         textFieldPasswordAgain.isSecureTextEntry = isSecure
-        
     }
     
     @IBAction func actionBtnPolicy(_ sender: UIButton) {
         isPolicyBtnChecked = !isPolicyBtnChecked
         btnPolicy.setImage(UIImage(named: isPolicyBtnChecked ? "checked" : "unchecked"), for: .normal)
     }
+    
     @IBAction func acitonBtnRegister(_ sender: UIButton){
         let userName = textFieldName.text ?? ""
         let userSurname = textFieldSurname.text ?? ""
-        
-        
-        
         
         checkName(userName: userName)
         checkSurname(userLastName: userSurname)
@@ -326,7 +295,6 @@ extension RegisterViewController{
         checkPassword(password: textFieldPassword.text ?? "" )
         checkPasswordAgain(password: textFieldPassword.text ?? "" , passwordAgain: textFieldPasswordAgain.text ?? "" )
         checkId(userID: textFieldIdNumber.text ?? "" )
-        
     }
     
     func isValidEmail(email: String) -> Bool {
@@ -340,6 +308,7 @@ extension RegisterViewController{
         alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alertController, animated: true, completion: nil)
     }
+    
     private func checkName(userName: String){
         let minLength = 3
         
@@ -353,7 +322,6 @@ extension RegisterViewController{
                 showError(message: "The name must contain only letters")
             }
         }
-        
     }
     
     private func checkSurname(userLastName: String){
@@ -370,15 +338,17 @@ extension RegisterViewController{
             }
         }
     }
+    
     private func checkEmail(email: String){
         if !isValidEmail(email: email) {
             showError(message: "Email has an error.")
             return
         }
     }
+    
     private func checkPassword(password: String){
         let minLength = 6
-        
+
         if password.count >= minLength {
             let containsUpperCase = password.rangeOfCharacter(from: CharacterSet.uppercaseLetters) != nil
             let containsSpecialCharacter = password.rangeOfCharacter(from: CharacterSet.punctuationCharacters) != nil
@@ -390,19 +360,19 @@ extension RegisterViewController{
             showError(message: "Password must be at least \(minLength) characters long")
         }
     }
+    
     private func checkPasswordAgain(password: String , passwordAgain : String){
         if passwordAgain != password {
             showError(message: "Passwords do not match")
         }
     }
+    
     private func checkId(userID: String){
-        
         let lastDigit = userID.last.flatMap { Int(String($0)) }
         let newtckno = userID.prefix(10)
         let firstTen = newtckno.compactMap {Int(String($0))}
         let sum = firstTen.reduce(0,+)
         let mod = sum % 10
-        
         
         if userID.count == 11 && firstTen[0] != 0  {
             if mod != lastDigit{
@@ -410,10 +380,8 @@ extension RegisterViewController{
             }
         }else{
             showError(message: "Id must be 11 digits and first digit cannot be '0'")
-            
         }
     }
-    
 }
 
 extension RegisterViewController: UITextViewDelegate {
@@ -438,9 +406,7 @@ extension RegisterViewController: UITextViewDelegate {
         return true
     }
 
-    
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-        
         let keyboardDoneButtonShow = UIToolbar(frame: CGRect(x: 0, y: 0,  width: self.view.frame.size.width, height: 35))
         keyboardDoneButtonShow.barTintColor = UIColor(hex:"BBC2CA")
         
@@ -452,13 +418,12 @@ extension RegisterViewController: UITextViewDelegate {
         let toolbarButton = [flexSpace, doneButton]
         keyboardDoneButtonShow.setItems(toolbarButton, animated: false)
         textField.inputAccessoryView = keyboardDoneButtonShow
-        
+
         return true
     }
     
-    
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange,replacementString string: String) -> Bool{
-        
+    
         if textField == textFieldEmail {
             let currentText = textField.text ?? ""
             let updatedText = (currentText as NSString).replacingCharacters(in: range, with: string)
@@ -472,121 +437,15 @@ extension RegisterViewController: UITextViewDelegate {
             textFieldEmail.layer.borderColor = !isValidEmail(email: textFieldEmail.text!) ? UIColor.red.cgColor :UIColor.red.cgColor
             textFieldEmail.layer.borderWidth = !isValidEmail(email: textFieldEmail.text!) ? 1.0 : 0.0
         }
-        
         return true
-        
     }
-    
-    
-//    func textFieldDidEndEditing(_ textField: UITextField) {
-//        
-//        
-//        if textField == textFieldName{
-//            
-//            let minLength = 3
-//            
-//            if let userName = textFieldName.text, userName.count < minLength {
-//                showError(message: "Name cannot be less than \(minLength) characters")
-//                
-//            } else if let userName = textField.text, userName.count >= minLength {
-//                let containsOnlyLetters = userName.rangeOfCharacter(from: CharacterSet.letters.inverted) == nil
-//                
-//                if !containsOnlyLetters{
-//                    showError(message: "The name must contain only letters")
-//                }
-//            }
-//            
-//        }else if textField == textFieldSurname{
-//            let minLength = 2
-//            
-//            if let userLastName = textFieldSurname.text, userLastName.count < minLength {
-//                showError(message: "Last name cannot be less than \(minLength) characters")
-//                
-//            } else if let userLastName = textFieldSurname.text, userLastName.count >= minLength {
-//                let containsOnlyLetters = userLastName.rangeOfCharacter(from: CharacterSet.letters.inverted) == nil
-//                
-//                if !containsOnlyLetters{
-//                    showError(message: "The last name must contain only letters")
-//                }
-//            }
-//            
-//        }
-//        else if textField == textFieldEmail {
-//            let minLength = 10
-//            let maxLength = 30
-//            
-//            var lengthControl: Bool
-//            var formatControl: Bool
-//            
-//            if let email = textField.text, email.count < minLength || email.count > maxLength {
-//                lengthControl = false
-//            } else {
-//                lengthControl = true
-//            }
-//            
-//            formatControl = isValidEmail(email: textField.text!)
-//            
-//            // Hata kontrollerini birleştirme
-//            if !lengthControl || !formatControl {
-//                showError(message: "Email should be between \(minLength) and \(maxLength) characters and have a valid format.")
-//            }
-//            
-//        }
-//        else if textField == textFieldPassword {
-//            let minLength = 6
-//            
-//            if let password = textFieldPassword.text, password.count >= minLength {
-//                let containsUpperCase = password.rangeOfCharacter(from: CharacterSet.uppercaseLetters) != nil
-//                let containsSpecialCharacter = password.rangeOfCharacter(from: CharacterSet.punctuationCharacters) != nil
-//                
-//                if !containsUpperCase || !containsSpecialCharacter {
-//                    showError(message: "Password must contain at least one uppercase letter and one special character")
-//                }
-//            } else {
-//                showError(message: "Password must be at least \(minLength) characters long")
-//            }
-//        }
-//        else if textField == textFieldPasswordAgain {
-//            if textFieldPasswordAgain.text != textFieldPassword.text {
-//                showError(message: "Passwords do not match")
-//            }
-//        }
-//        else if textField == textFieldIdNumber {
-//            
-//            let tckno = textFieldIdNumber.text
-//            
-//            
-//            let lastDigit = tckno?.last.flatMap { Int(String($0)) }
-//            let newtckno = tckno?.prefix(10)
-//            let firstTen = newtckno?.compactMap {Int(String($0))}
-//            let sum = firstTen?.reduce(0,+)
-//            let mod = sum! % 10
-//            
-//            
-//            if tckno?.count == 11 && firstTen![0] != 0  {
-//                if mod != lastDigit{
-//                    showError(message: "Wrong user id")
-//                }
-//            }else{
-//                showError(message: "Id must be 11 digits and first digit cannot be '0'")
-//                
-//            }
-//            
-//        }
-//        
-//        
-//        
-//        
-//    }
-    
-    
+  
 }
 
 extension RegisterViewController : PolicyViewControllerDelegate {
     func approvedPolicy() {
         self.btnPolicy.setImage(UIImage(named: "checked"), for: .normal)
     }
-    
 }
 
 

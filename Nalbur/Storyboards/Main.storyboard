@@ -703,54 +703,6 @@
             </objects>
             <point key="canvasLocation" x="-1098.4732824427481" y="938.73239436619724"/>
         </scene>
-        <!--Title-->
-        <scene sceneID="nJ3-J3-tJR">
-            <objects>
-                <viewController id="N3D-c1-hx6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4sS-rW-Ea6">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="1200"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLw-jL-4mu">
-                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T5Y-TK-APW">
-                                        <rect key="frame" x="0.0" y="51" width="393" height="963"/>
-                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="ZlD-eT-zdN" firstAttribute="bottom" secondItem="T5Y-TK-APW" secondAttribute="bottom" id="ZYo-qh-AkZ"/>
-                                    <constraint firstItem="ZlD-eT-zdN" firstAttribute="trailing" secondItem="T5Y-TK-APW" secondAttribute="trailing" id="dv6-Bf-ULc"/>
-                                    <constraint firstItem="T5Y-TK-APW" firstAttribute="top" secondItem="ZlD-eT-zdN" secondAttribute="top" id="ffY-Kp-gwe"/>
-                                    <constraint firstItem="T5Y-TK-APW" firstAttribute="leading" secondItem="ZlD-eT-zdN" secondAttribute="leading" id="xb8-k6-PPb"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="rCw-ab-dKd"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="ZlD-eT-zdN"/>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="7nV-Xm-zg3"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="aLw-jL-4mu" firstAttribute="trailing" secondItem="7nV-Xm-zg3" secondAttribute="trailing" id="1ij-Hs-5N8"/>
-                            <constraint firstItem="aLw-jL-4mu" firstAttribute="bottom" secondItem="7nV-Xm-zg3" secondAttribute="bottom" id="7f4-EL-FBa"/>
-                            <constraint firstItem="T5Y-TK-APW" firstAttribute="width" secondItem="4sS-rW-Ea6" secondAttribute="width" id="9Jt-sL-Zkw"/>
-                            <constraint firstItem="aLw-jL-4mu" firstAttribute="bottom" secondItem="7nV-Xm-zg3" secondAttribute="bottom" id="e2I-QX-dVO"/>
-                            <constraint firstItem="aLw-jL-4mu" firstAttribute="top" secondItem="4sS-rW-Ea6" secondAttribute="top" id="pbk-TO-Nvo"/>
-                            <constraint firstItem="aLw-jL-4mu" firstAttribute="centerX" secondItem="4sS-rW-Ea6" secondAttribute="centerX" id="skt-r4-iMN"/>
-                            <constraint firstItem="aLw-jL-4mu" firstAttribute="leading" secondItem="7nV-Xm-zg3" secondAttribute="leading" id="unL-cj-6d3"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="6Au-9z-5Af"/>
-                    <navigationItem key="navigationItem" title="Title" id="JJF-fH-1y5">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="bS5-NB-3N9"/>
-                    </navigationItem>
-                    <size key="freeformSize" width="393" height="1200"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ji-Ks-3cb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1695.4198473282443" y="1864.7887323943662"/>
-        </scene>
         <!--Settings-->
         <scene sceneID="GfX-db-COB">
             <objects>
@@ -853,25 +805,25 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemMintColor">
-            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
-            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
-            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
